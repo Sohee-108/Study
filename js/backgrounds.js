@@ -1,6 +1,7 @@
 const images = [
-    "0.png","1.jpeg","2.png"
+    "0.jpeg","1.jpeg","2.jpeg","3.png"
 ];
+const body = document.querySelector("body");
 
 const chosenImage = images[Math.floor(Math.random()*images.length)];
 

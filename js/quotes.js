@@ -1,48 +1,48 @@
 const quotes = [
     {
-        quote: "어렸을 때는 그냥 훌륭한 사람이 되고 싶었는데 지금은 그저 행복한 사람이 되고 싶다.",
-        author: "인생"
+        quote: "내 경험상 틀린 길은 없었다.",
+        author: "오늘 내가 사는게 재미있는 이유 - 김혜남 중에서"
     },
     {
-        quote: "뜨거움의 열기가 한 풀 꺾여 차분함으로 식혀주는 그런 가을이였으면 해.",
-        author: "인생"
+        quote: "위로는, 헤아림이라는 땅 위에 피는 꽃이다.",
+        author: "언어의 온도 - 이기주 중에서"
     },
     {
-        quote: "완전한 사랑이라는 것은 없어.",
-        author: "사랑"
+        quote: "시간은 삶이며, 삶은 우리 마음 속에 깃들여 있는 것이다.",
+        author: "모모 - 미하엘 엔데 중에서"
     },
     {
-        quote: "미완성된 사랑을 끊임없이 만들어가는 과정일 뿐이지.",
-        author: "사랑"
+        quote: "나는 가끔 사진 속의 당신과 눈을 맞춘다.",
+        author: "생각이 나서 - 황경신 중에서"
     },
     {
-        quote: "어쩌면 세상엔 완전한 사랑이 존재하지 않을지도 몰라.",
-        author: "사랑"
+        quote: "실패했을 때 어떻게 하느냐가 그 사람에 대한 평가를 좌우한다.",
+        author: "선택하지 않은 인생은 잊어도 좋다 - 고지마 게이코 중에서"
     },
     {
-        quote: "몰랐던 점들을 서서히 알게 되었을 때 그때부터 이별을 서서히 준비하고 있었을지도 몰라.",
-        author: "이별"
+        quote: "나는 가끔 무슨 말을 하고 싶은데 무슨 말을 하고 싶은지 모르겠다고 했다.",
+        author: "눈 먼 부엉이 - 정지돈 중에서"
     },
     {
-        quote: "권태기일까, 깊은 사랑을 위해 필요한 관문인걸까.",
-        author: "이별"
+        quote: "결국 내가 잃어버린 것은 구름이 아니라 구름을 바라볼 시간과 마음이었다.",
+        author: "한 걸음씩 걸어서 거기 도착하려네 - 나희덕 중에서"
     },
     {
-        quote: "마음의 크기는 서로 동등해야 해.",
-        author: "연애"
+        quote: "오랫동안 고민해 선택한 결과가 대단하지 않더라도 자신조차 시시하게 여기지 말라는 것.",
+        author: "무례한 사람에게 웃으며 대처하는 법 - 정문정 중에서"
     },
     {
-        quote: "어느 한쪽에 공백이 생겼을 때 그 공백의 크기만큼 고스란히 상처로 남게 되지.",
-        author: "연애"
+        quote: "시간을 '보내는 것'이 삶이라면 될 수 있는 한 '잘 대접해서' 보내주고 싶다.",
+        author: "소란 - 박연준 중에서"
     },
     {
-        quote: "호기심으로부터 시작했던 관심히 호감으로 이어졌고, 너에 대한 감정은 어느새 점점 더 퍼져나갔지.",
-        author: "연애"
+        quote: "내 앞에 서있는 네가 시고, 그림이고, 영화다.",
+        author: "심심한 날의 오후 다섯시 - 김용택 중에서"
     }
 ]
 
-const quote = document.querySelector("#quote span:first-child");
-const author = document.querySelector("#quote span:last-child");
+const quote = document.querySelector("#quote h3:first-child");
+const author = document.querySelector("#quote h3:last-child");
 
 const todayQuote = quotes[Math.floor(Math.random()*quotes.length)];
 
